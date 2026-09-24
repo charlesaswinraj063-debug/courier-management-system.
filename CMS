@@ -1,0 +1,64 @@
+# Courier Management System (CMS)
+
+## Project status
+
+**Proposed solution — implementation has not started.**
+
+This repository documents the planned Salesforce-based Courier Management System. It does not yet contain a deployed application, implemented Salesforce configuration, or verified test results.
+
+## Proposed solution
+
+Develop a cloud-based Courier Management System in Salesforce to automate shipment booking, tracking, delivery-agent assignment, status updates, and reports and dashboards.
+
+## Business objectives
+
+- Manage customers and shipments.
+- Track parcel movement.
+- Assign delivery agents.
+- Keep shipment status up to date.
+- Provide analytics dashboards for delivery operations.
+
+## Planned features
+
+| Feature | Intended purpose |
+| --- | --- |
+| Shipment booking | Record shipment and delivery details. |
+| Tracking | Maintain visibility of each parcel's progress. |
+| Delivery-agent assignment | Assign responsibility for delivering shipments. |
+| Status updates | Record progress through the shipment lifecycle. |
+| Reports and dashboards | Summarize shipment activity and delivery performance. |
+
+The course description calls for real-time status updates. The update mechanism and refresh behavior will be defined during implementation. Live GPS tracking is not specified in the supplied requirements.
+
+## Functional scope
+
+The supplied project description lists:
+
+1. Custom object creation.
+2. Relationship modeling.
+3. Automation using Salesforce Flows.
+4. Reports and dashboards.
+
+## Execution roadmap
+
+| Milestone | Planned work | Status |
+| --- | --- | --- |
+| Object and field setup | Define and create the required records and fields. | Planned |
+| Relationship building | Connect related records. | Planned |
+| Flow automations | Configure the required process automation. | Planned |
+| Security | Define access and permissions for users. | Planned |
+| Reports and dashboards | Create summaries of delivery operations. | Planned |
+
+## Illustrative business workflow
+
+Customer and shipment details recorded → delivery agent assigned → tracking and status updated → delivery outcome recorded → reports reviewed.
+
+This workflow is a proposal. Exact record names, fields, assignment rules, shipment statuses, permissions, and acceptance criteria remain to be agreed with the course requirements.
+
+## Submission materials
+
+- This README describes the proposed solution.
+- `PROPOSAL_WALKTHROUGH.md` contains a script for explaining the proposal.
+- A working-application demo and deployable Salesforce configuration will be added only after implementation and verification.
+
+**A proposal walkthrough is not evidence of a working application.** The course's accepted demo format and completion rules must be checked separately.
